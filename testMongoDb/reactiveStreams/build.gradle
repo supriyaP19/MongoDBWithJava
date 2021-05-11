@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.mongodb:mongodb-driver-reactivestreams:4.2.3'
+    testImplementation group: 'org.reactivestreams', name: 'reactive-streams-tck', version: '1.0.3'
+    testImplementation group: 'org.reactivestreams', name: 'reactive-streams-tck-flow', version: '1.0.3'
+
+}
