@@ -15,4 +15,8 @@ dependencies {
     testImplementation group: 'org.reactivestreams', name: 'reactive-streams-tck', version: '1.0.3'
     testImplementation group: 'org.reactivestreams', name: 'reactive-streams-tck-flow', version: '1.0.3'
 
+    implementation group: 'org.mongodb', name: 'mongodb-driver-sync', version: '4.2.3'
+    implementation group: 'org.mongodb', name: 'mongodb-crypt', version: '1.2.0'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
 }
